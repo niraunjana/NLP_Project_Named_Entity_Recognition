@@ -49,31 +49,31 @@ nltk - Tokenization and text preprocessing
 
 3. Text Preprocessing
 
-Cleaning, tokenization, and removal of stopwords.
+---> Cleaning, tokenization, and removal of stopwords.
 
-Normalization of text (lowercasing, punctuation removal).
+---> Normalization of text (lowercasing, punctuation removal).
 
-Named Entity Recognition
+---> Named Entity Recognition
 
 4. Uses SpaCy’s en_core_web_sm model to identify:
 
-PERSON → Candidate names
+---> PERSON → Candidate names
 
-ORG → Institutions and employers
+---> ORG → Institutions and employers
 
-DATE → Work durations
+---> DATE → Work durations
 
 5. Uses custom rules and regex to extract:
 
-Degrees (e.g., B.Tech, MBA)
+---> Degrees (e.g., B.Tech, MBA)
 
-Skills (via predefined keyword set)
+---> Skills (via predefined keyword set)
 
-Work Experience descriptions
+---> Work Experience descriptions
 
-Structured Output Generation
+---> Structured Output Generation
 
-Extracted data is converted to JSON or CSV format for further processing or storage.
+6. Extracted data is converted to JSON or CSV format for further processing or storage.
 
 ## Output 
 
@@ -96,13 +96,20 @@ Extracted data is converted to JSON or CSV format for further processing or stor
 
 ## Requirements (requirements.txt)
 
-nginx
-Copy
-Edit
-spacy
-pymupdf
-nltk
-pandas
+1. nginx
+   
+2. Copy
+   
+3. Edit
+   
+4. spacy
+   
+5. pymupdf
+   
+6. nltk
+   
+7. pandas
+   
 
 ## Project Highlights
 
